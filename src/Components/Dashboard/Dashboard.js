@@ -23,8 +23,7 @@ function Dashboard(){
     function signoutfun(){
         signOut(auth).then(() => {
             Alert("you successfully logged out,please refresh your page");
-            navigate('/')
-            window.location.reload();
+            navigate('/Login');
             
             
           }).catch((error) => {
