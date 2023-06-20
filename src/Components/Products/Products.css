@@ -1,0 +1,26 @@
+
+.products-each-card{
+    width: 250px;
+    min-height: 250px;
+    margin: 2%;
+}
+
+.products-each-img{
+    width: 100%;
+    height: 350px;
+    
+}
+
+.product-cost-name{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.whole-products-store{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+}

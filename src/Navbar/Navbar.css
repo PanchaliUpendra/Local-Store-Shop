@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@200;400;500;600;700;800&display=swap');
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    z-index: 4;
+
+}
+.navbar-container-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.navbar-container-ul>li{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #0D0E43;
+    cursor: pointer;
+
+}
+.navbar-con-link{
+    color: black;
+}
+.navbar-con-link-login{
+    color: black;
+}
+.navbar-con-link-login:hover{
+    color: white;
+}
+.navbar-container-header{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 34px;
+    color: #0D0E43;
+}
+.navbar-container-login{
+    border: 1px solid #FB2E86;
+
+}
+.navbar-container-login:hover{
+    color: white;
+    background-color: #FB2E86;
+
+}
+.navbar-container-login>p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+    padding: 10px 20px;
+    color: #FB2E86;
+
+}
+.navbar-container-login:hover>p{
+    color: white;
+    background-color: #FB2E86;
+    cursor: pointer;
+
+}
+/* responsive navbar*/
+.responsive-navbar-container{
+    display: none;
+}
+
+.inactive-display-login-btn{
+    display: none;
+}
+
+.wishlist-addparoducts-inactive{
+    display: none;
+}
+.wishlist-addparoducts{
+    display: block;
+}
+.navbar-con-link-login-no2{
+     display: none;   
+}
+
+.class-inactive{
+    display: none;
+}
+
+.dashboard-prime-navbar{
+    display: none;
+}
+
+
+ 
+ 
+/* css for navbar media queries*/
+@media screen and (max-width:750px){
+    .navbar-container-ul{
+        display: none;
+    }
+    
+    .menu-click-navbar{
+        display: contents;
+    }
+    .dashboard-prime-navbar{
+        display: contents;
+    }
+    
+}

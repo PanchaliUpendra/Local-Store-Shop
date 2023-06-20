@@ -1,0 +1,108 @@
+/* about css by mistake i written here*/
+.about-container-first-div{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about1-cont-img{
+    width: 400px;
+    height: 300px;
+    box-shadow: -34px 32px 0px -11px rgba(43,60,171,1);
+}
+.about-container-first-div-content{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 50%;
+}
+.about-container-first-div-content>h2{
+    font-family: 'Josefin Sans';
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #151875;
+}
+
+.about-container-first-div-content>p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #8A8FB9;
+    text-align: justify;
+
+}
+
+.about-container-first-div-content .about-container-fir-div-cont-btn{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 26px;
+    color: #FFFFFF;
+
+    height: 44px;
+    background: #FB2E86;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:910px){
+    .about-container-first-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-container-first-div-content{
+        width: 100%;
+    }
+}
+@media screen and (max-width:430px){
+    .about1-cont-img{
+        width: 270px;
+        height: 200px;
+    }
+}
+
+.know-more-about-us{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.know-more-about-us>h1{
+    font-family: 'Josefin Sans';
+    font-size: 2.3rem;
+    
+    color: #151875;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+
+}
+
+.know-more-about-us>p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    
+    color: #8A8FB9;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+
+    text-align: justify;
+}
+
+.inactive-reg-successfully{
+    display: none;
+}

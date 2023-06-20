@@ -1,0 +1,18 @@
+.account-container{
+    margin-left: 10%;
+    margin-top: 12%;
+    margin-bottom: 2%;
+}
+
+.account-personal-details-each{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.account-personal-details-each>p:nth-child(1){
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.account-personal-details-each>p:nth-child(2){
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,176 @@
+.inactive-login-container{
+    display: none;
+}
+
+.login-con-sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px 10px #e7e7ea;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.login-con-sign-up>form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-con-sign-up>form input{
+    height: 52px;
+    border: 1px solid #C2C5E1;
+    border-radius: 2px;
+    padding-left: 5px;
+    margin-bottom: 5%;
+}
+.login-con-sign-up>form input::placeholder{
+    color: #9096B2;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.login-con-sign-up>form input:focus{
+    outline-style: none;
+}
+.login-con-sign-up>form button{
+    height: 47px;
+    background: #FB2E86;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+}
+.login-con-sign-up>form label{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 14px;
+
+    color: #1D3178;
+    margin-bottom: 2%;
+
+}
+
+.login-con-sign-up>p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size:0.9rem;
+    color: #9096B2;
+    margin-top: 3%;
+}
+
+.login-con-inactive{
+    display: none;
+}
+
+.login-final-decision-btn{
+    color: #1D3178;
+    cursor: pointer;
+}
+
+
+.editaccount-two-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2%;
+}
+
+.editaccount-two-btns>button:nth-child(1){
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.editaccount-two-btns>button:nth-child(2){
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* about css by mistake i written here
+.about-container-first-div{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about1-cont-img{
+    width: 400px;
+    height: 300px;
+    box-shadow: -34px 32px 0px -11px rgba(43,60,171,1);
+}
+.about-container-first-div-content{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 50%;
+}
+.about-container-first-div-content>h2{
+    font-family: 'Josefin Sans';
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #151875;
+}
+
+.about-container-first-div-content>p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #8A8FB9;
+
+}
+
+.about-container-first-div-content>button{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 26px;
+    color: #FFFFFF;
+
+    height: 44px;
+    background: #FB2E86;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:910px){
+
+}*/
+
+@media screen and (max-width:470px){
+    .login-con-sign-up{
+        width: 100%;
+    }
+}

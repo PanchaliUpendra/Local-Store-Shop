@@ -1,0 +1,81 @@
+.buyproducts-each-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:justify;
+    gap: 20px;
+}
+
+.buyproducts-each-card-img{
+    width: 300px;
+    height: 400px;
+}
+.buyproducts-each-card{
+    margin:5%;
+}
+
+.buyproducts-about-each-card>p:nth-child(odd){
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: black;
+}
+
+.buyproducts-about-each-card>p:nth-child(even){
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+.buyproducts-buttons-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.buyproducts-buttons-div>button:nth-child(1){
+    padding: 10px 20px;
+    border: 1px solid rgb(177, 205, 242);
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.buyproducts-buttons-div>button:nth-child(2){
+    padding: 10px 20px;
+    border: 1px solid rgb(177, 205, 242);
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.buyproducts-related-head>h1{
+    margin-left: 10%;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+}
+
+.buyproducts-related-items-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+@media screen and (max-width:600px){
+    .buyproducts-each-card{
+        flex-direction: column;
+    }
+    .buyproducts-each-card-img{
+        width: 250px;
+        height: 350px;
+        margin: auto;
+    }
+}

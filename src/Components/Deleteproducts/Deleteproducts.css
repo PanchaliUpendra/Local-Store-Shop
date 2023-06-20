@@ -1,0 +1,47 @@
+.delete-each-product-card{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* s */
+    margin: 2%;
+    gap: 10px;
+}
+
+.delete-products-each-img{
+    width: 270px;
+    height: 310px;
+}
+
+.delete-all-products{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin: auto;
+}
+
+.delete-items-btn{
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    display: inline-block;
+    padding: 1%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:615px){
+    .delete-all-products{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .delete-each-product-card{
+        flex-direction: column;
+    }
+}

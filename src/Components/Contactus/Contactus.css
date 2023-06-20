@@ -1,0 +1,211 @@
+.contactus-first-div{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    background-color: #eae7ff;
+}
+
+.contactus-first-div>h1{
+    font-family: 'Josefin Sans';
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: #101750;
+}
+
+.contactus-second-div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-way-img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.contactus-informaion{
+    width: 50%;
+}
+.contactus-informaion>h1{
+    font-family: 'Josefin Sans';
+    font-size: 2.2rem;
+    line-height: 48px;
+    color: #151875;
+}
+.contactus-informaion>p{
+    text-align: justify;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #8A8FB9;
+}
+
+.contact-way-contact-us{
+    margin-left: 5%;
+}
+.contact-way-contact-us>h1{
+    font-family: 'Josefin Sans';
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: #151875;
+}
+
+.contactus-contactway-div-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.contactway-para-parts{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size:1rem;
+    line-height: 26px;
+    color: #8A8FB9;
+    margin-left: 4%;
+}
+.contact-way-contact-us>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-way-contact-us div>div{
+    width: 50%;
+}
+@media screen and (max-width:760px){
+    .contactus-second-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactus-informaion{
+        width: 100%;
+    }
+    .contact-way-contact-us{
+        margin-left: 0;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .contact-way-contact-us>div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-way-contact-us div>div{
+        width: 100%;
+    }
+}
+
+.get-in-touch-div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+.contactus-oribit-img{
+    width: 40%;
+}
+.get-in-touch-form{
+    margin-right: 10%;
+}
+.get-in-touch-form>h1{
+    font-family: 'Josefin Sans';
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: #151875;
+
+}
+.get-in-touch-form>p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #8A8FB9;
+}
+
+.get-in-touch-form-part1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.get-in-touch-form>form{
+    margin-top: 2%;
+}
+.get-in-touch-form>form input{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.get-in-touch-form>form textarea{
+    width: 100%;
+    height: 80px;
+}
+
+.get-in-touch-form>form input{
+    border: 1px solid rgba(164, 182, 200, 0.7);
+    border-radius: 3px;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.get-in-touch-form>form textarea{
+    border: 1px solid rgba(164, 182, 200, 0.7);
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.get-in-touch-form>form textarea:focus{
+    outline: none;
+}
+
+
+.get-in-touch-form>form input::placeholder,textarea::placeholder{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #8A8FB9;
+}
+
+.get-in-touch-form>form input:focus{
+    outline: none;
+}
+
+.get-in-touch-form>button{
+    color: white;
+    background: #FB2E86;
+    border-radius: 3px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px){
+    .get-in-touch-div{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .contactus-oribit-img{
+        width: 70%;
+        margin: auto;
+        margin-top: 5%;
+    }
+}

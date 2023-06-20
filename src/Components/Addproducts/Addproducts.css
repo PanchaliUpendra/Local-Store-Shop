@@ -1,0 +1,32 @@
+.add-products-form-upload{
+    width: 600px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.addproducts-classname{
+    color: rgba(164, 182, 200, 1);
+}
+
+.product-plus-categories{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.addproducts-deleted-link{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.addproducts-deleted-link>p{
+    color: #8A8FB9;
+}
+
+@media screen and (max-width:550px){
+    .add-products-form-upload{
+        width: 70%;
+    }
+}
