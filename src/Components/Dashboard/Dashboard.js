@@ -9,7 +9,6 @@ import Account from '../Account/Account';
 import Messages from '../messages/Messages';
 import Orders from '../Orders/Orderes';
 import { onAuthStateChanged} from "firebase/auth";
-import { Alert } from '@mui/material';
 
 
 function Dashboard(){
@@ -22,7 +21,7 @@ function Dashboard(){
     const sharedValues=useContext(MyContext);
     function signoutfun(){
         signOut(auth).then(() => {
-            Alert("you successfully logged out,please refresh your page");
+            console.log("you successfully logged out,please refresh your page");
             navigate('/Login');
             
             
