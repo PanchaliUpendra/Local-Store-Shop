@@ -25,9 +25,7 @@ function Dashboard(){
             Alert("you successfully logged out,please refresh your page");
             navigate('/')
             window.location.reload();
-            setTimeout(() => {
-              navigate('/Login')
-            },2000);
+            
             
           }).catch((error) => {
             console.log("error vachiundhi rfa swamy",error);
