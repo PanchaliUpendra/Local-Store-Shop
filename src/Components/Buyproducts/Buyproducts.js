@@ -57,7 +57,7 @@ function Buyproducts(){
     });
     console.log("Document written with ID: ", docRef.id);
     alert("our order placed successfully");
-    window.location.reload();
+    document.location.reload();
   } catch (e) {
     console.error("Error adding document: ", e);
   }
