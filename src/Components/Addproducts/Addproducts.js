@@ -5,7 +5,7 @@ import { collection, addDoc } from "firebase/firestore";
 import {db} from '../../Firebase';
 import {storage} from '../../Firebase';
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+
 
 
 
@@ -19,7 +19,7 @@ function Addproducts(){
     const [proCategory,setProCate]=useState(null);
     const [proDescript,setProDescript]=useState(null);
     
-    const navigate = useNavigate();
+    
 
     async function handleImageUpload(e){
         const file = e.target.files[0];
@@ -31,8 +31,6 @@ function Addproducts(){
       /* alert message using the firestore */
       function alertmessage(){
         alert("successfully added your data");
-        
-        navigate('/')
         window.location.reload();
       }
 
