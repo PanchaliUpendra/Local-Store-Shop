@@ -57,8 +57,8 @@ function Addcart(){
     async function deladdcart(docId){
       await deleteDoc(doc(db, "addcart", `${sharedValues.useruid}`,'items',`${docId}`));
         console.log("successfully deleted");
-        alert("successfully deleted ");
-        window.location.reload();
+        alert("successfully deleted ,please refresh your page");
+        
     }
 console.log("booka rey:",addcartdata);
 /*function add data */
@@ -74,8 +74,8 @@ async function handlingorder(product){
     ...product
   });
   console.log("Document written with ID: ", docRef.id);
-  alert("our order placed successfully")
-  window.location.reload();
+  alert("our order placed successfully, please refresh your page")
+ 
 } catch (e) {
   console.error("Error adding document: ", e);
 }

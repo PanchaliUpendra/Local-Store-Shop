@@ -9,6 +9,7 @@ import Account from '../Account/Account';
 import Messages from '../messages/Messages';
 import Orders from '../Orders/Orderes';
 import { onAuthStateChanged} from "firebase/auth";
+import { Alert } from '@mui/material';
 
 
 function Dashboard(){
@@ -21,9 +22,9 @@ function Dashboard(){
     const sharedValues=useContext(MyContext);
     function signoutfun(){
         signOut(auth).then(() => {
-            console.log("you successfully logged out");
+            Alert("you successfully logged out,please refresh your page");
             navigate('/login')
-            window.location.reload();
+            
             
           }).catch((error) => {
             console.log("error vachiundhi rfa swamy",error);

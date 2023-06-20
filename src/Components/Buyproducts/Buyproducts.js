@@ -25,8 +25,8 @@ function Buyproducts(){
         try {
           const docRef = await addDoc(collection(db, "addcart",`${sharedValues.useruid}`,"items"),product);
           console.log("Document written with ID: ", docRef.id);
-          alert("successfully added");
-          window.location.reload();
+          alert("successfully added , please refresh your page");
+          
   
         } catch (e) {
           console.error("Error adding document: ", e);
@@ -56,8 +56,8 @@ function Buyproducts(){
       ...product
     });
     console.log("Document written with ID: ", docRef.id);
-    alert("our order placed successfully");
-    document.location.reload();
+    alert("our order placed successfully, please refresh your page");
+    
   } catch (e) {
     console.error("Error adding document: ", e);
   }

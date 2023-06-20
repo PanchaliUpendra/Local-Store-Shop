@@ -25,8 +25,8 @@ function Editaccount(){
             phone:updatedph,
             address:updatedadd
             });
-            alert("successfully updated");
-            window.location.reload();
+            alert("successfully updated, please refresh your page");
+            
         }catch(e){
             console.log("you got the error in editprofile",e);
         }
