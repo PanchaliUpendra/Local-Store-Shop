@@ -48,10 +48,10 @@ function Homepage(){
         <div className='homepage-container'>
             <div className='homepage-container-frontview'>
                 <div className='home-frontview-div1'>
-                <h3>Best Furniture For Your Castle....</h3>
-                <h2>New Furniture Collection Trends in 2020</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
-                in phasellus non in justo.</p>
+                <h3>Best shopping For Your Castle....</h3>
+                <h2>New Shopping Collection Trends in 2023</h2>
+                <p> expect cutting-edge shopping collections that embrace
+                 sustainability, personalization, and tech-infused experiences.</p>
                 <button onClick={handlenavigate}>Shop Now</button>
                 </div>
                 <div className='home-frontview-second-div'>
@@ -65,9 +65,9 @@ function Homepage(){
                 <div className='homepage-feature-parts'>
                     <img src={feature1} alt="feature-product-1" className='homepage-feature-part-img'/>
                     <div className='feature-products-bottom-content'>
-                    <h1>Cantilever chair</h1>
+                    <h1>shirt + pant + shoes</h1>
                     <p>Code - Y523201</p>
-                    <p>$42.00</p>
+                    <p>$40.00</p>
 
                     </div>
                 </div>
@@ -75,9 +75,9 @@ function Homepage(){
                 <div className='homepage-feature-parts'>
                 <img src={feature2} alt="feature-product-2" className='homepage-feature-part-img'/>
                 <div className='feature-products-bottom-content'>
-                <h1>Cantilever chair</h1>
-                <p>Code - Y523201</p>
-                <p>$42.00</p>
+                <h1>girls Top</h1>
+                <p>Code - Y523202</p>
+                <p>$50.00</p>
 
                 </div>
                 </div>
@@ -85,9 +85,9 @@ function Homepage(){
                 <div className='homepage-feature-parts'>
                 <img src={feature3} alt="feature-product-3" className='homepage-feature-part-img'/>
                 <div className='feature-products-bottom-content'>
-                <h1>Cantilever chair</h1>
-                <p>Code - Y523201</p>
-                <p>$42.00</p>
+                <h1>sweat shirt</h1>
+                <p>Code - Y523203</p>
+                <p>$67.00</p>
 
                 </div>
                 </div>
@@ -95,9 +95,9 @@ function Homepage(){
                 <div className='homepage-feature-parts'>
                 <img src={feature4} alt="feature-product-4" className='homepage-feature-part-img'/>
                 <div className='feature-products-bottom-content'>
-                <h1>Cantilever chair</h1>
-                <p>Code - Y523201</p>
-                <p>$42.00</p>
+                <h1>hoodies + pant</h1>
+                <p>Code - Y523204</p>
+                <p>$96.00</p>
                 </div>
                 </div>
 
@@ -121,54 +121,54 @@ function Homepage(){
                 <div className='homepage-feature-parts'>
                     <img src={letp1} alt="feature-product-1" className='homepage-feature-part-img'/>
                     <div className='feature-products-bottom-content'>
-                    <h1>Cantilever chair</h1>
-                    <p>Code - Y523201</p>
-                    <p>$42.00</p>
+                    <h1>girls wear</h1>
+                    <p>Code - Y523205</p>
+                    <p>start's from $30.00</p>
 
                     </div>
                 </div>
                 <div className='homepage-feature-parts'>
                     <img src={letp2} alt="feature-product-1" className='homepage-feature-part-img'/>
                     <div className='feature-products-bottom-content'>
-                    <h1>Cantilever chair</h1>
-                    <p>Code - Y523201</p>
-                    <p>$42.00</p>
+                    <h1>t-shirt combo</h1>
+                    <p>Code - Y5231324</p>
+                    <p>$49.00</p>
 
                     </div>
                 </div>
                 <div className='homepage-feature-parts'>
                     <img src={letp3} alt="feature-product-1" className='homepage-feature-part-img'/>
                     <div className='feature-products-bottom-content'>
-                    <h1>Cantilever chair</h1>
-                    <p>Code - Y523201</p>
-                    <p>$42.00</p>
+                    <h1>hoodies + combo</h1>
+                    <p>Code - Yadferf32</p>
+                    <p>$59.00</p>
 
                     </div>
                 </div>
                 <div className='homepage-feature-parts'>
                     <img src={letp4} alt="feature-product-1" className='homepage-feature-part-img'/>
                     <div className='feature-products-bottom-content'>
-                    <h1>Cantilever chair</h1>
-                    <p>Code - Y523201</p>
-                    <p>$42.00</p>
+                    <h1>shoes</h1>
+                    <p>Code - Y51123</p>
+                    <p>$52.00</p>
 
                     </div>
                 </div>
                 <div className='homepage-feature-parts'>
                     <img src={letp5} alt="feature-product-1" className='homepage-feature-part-img'/>
                     <div className='feature-products-bottom-content'>
-                    <h1>Cantilever chair</h1>
-                    <p>Code - Y523201</p>
-                    <p>$42.00</p>
+                    <h1>t-shirts</h1>
+                    <p>Code - Y565432</p>
+                    <p>$22.00</p>
 
                     </div>
                 </div>
                 <div className='homepage-feature-parts'>
                     <img src={feature1} alt="feature-product-1" className='homepage-feature-part-img'/>
                     <div className='feature-products-bottom-content'>
-                    <h1>Cantilever chair</h1>
-                    <p>Code - Y523201</p>
-                    <p>$42.00</p>
+                    <h1>shirt + pant + shoes</h1>
+                    <p>Code - Ymkadjgb2</p>
+                    <p>$92.00</p>
 
                     </div>
                 </div>
@@ -183,23 +183,23 @@ function Homepage(){
                 <div className='what-store-shop-offer-products'>
                     <div className='store-shop-products'>
                     <img src={tfby71} className='store-shop-products-img' alt='tfby1'/>
-                    <h2>24/7 Support</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                    <h2>fast delivery</h2>
+                    <p>"Experience lightning-fast delivery for a seamless shopping journey at our store."</p>
                     </div>
                     <div className='store-shop-products'>
                     <img src={tfby72} className='store-shop-products-img' alt="tfby2"/>
-                    <h2>24/7 Support</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                    <h2>more discount</h2>
+                    <p>"Unlock bigger savings with every purchase through our exclusive 'more buy, more discount' offer."</p>
                     </div>
                     <div className='store-shop-products'>
                     <img src={tfby73} className='store-shop-products-img' alt="tfby3"/>
-                    <h2>24/7 Support</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                    <h2>earn coins</h2>
+                    <p>"Accumulate coins with every purchase and unlock exciting rewards!"</p>
                     </div>
                     <div className='store-shop-products'>
                     <img src={tfby74} className='store-shop-products-img' alt="tfby4"/>
                     <h2>24/7 Support</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                    <p>"Enjoy round-the-clock support for any assistance, anytime, anywhere."</p>
                     </div>
 
                 </div>
@@ -213,10 +213,9 @@ function Homepage(){
                 <div className='unique-feature-div-part2'>
                     <h1>Unique Features Of leatest & Trending Poducts</h1>
                     <ul>
-                        <li>All frames constructed with hardwood solids and laminates</li>
-                        <li>Reinforced with double wood dowels, glue, screw - nails corner 
-                            blocks and machine nails</li>
-                        <li>Arms, backs and seats are structurally reinforced</li>
+                        <li>Discover the latest and trending products boasting innovative features and unmatched quality.</li>
+                        <li>Explore our curated selection of unique products, setting new trends in style and functionality.</li>
+                        <li>Experience the ultimate in cutting-edge designs and groundbreaking technology with our newest arrivals.</li>
                     </ul>
                     <div className='unique-container-shop-now'>
                         <button onClick={handlenavigate}>Shop Now</button>
@@ -234,8 +233,8 @@ function Homepage(){
                     <div className='top-categories-cards'>
                     <img src={top2} alt="top2-cards" className='top-categories-img'/>
                     </div>
-                    <p>Mini LWC chair</p>
-                    <p>$56.00</p>
+                    <p>Arm chair</p>
+                    <p>$99.00</p>
                     </div>
                 {/* cards ends here */}
                 {/* cards starts here */}
@@ -243,8 +242,8 @@ function Homepage(){
                     <div className='top-categories-cards'>
                     <img src={top3} alt="top2-cards" className='top-categories-img'/>
                     </div>
-                    <p>Mini LWC chair</p>
-                    <p>$56.00</p>
+                    <p>Recliner Chair</p>
+                    <p>$66.00</p>
                     </div>
                 {/* cards ends here */}
                 {/* cards starts here */}
@@ -252,8 +251,8 @@ function Homepage(){
                     <div className='top-categories-cards'>
                     <img src={top4} alt="top2-cards" className='top-categories-img'/>
                     </div>
-                    <p>Mini LWC chair</p>
-                    <p>$56.00</p>
+                    <p>Accent Chair</p>
+                    <p>$46.00</p>
                     </div>
                 {/* cards ends here */}
                 {/* cards starts here */}
@@ -261,7 +260,7 @@ function Homepage(){
                     <div className='top-categories-cards'>
                     <img src={top5} alt="top2-cards" className='top-categories-img'/>
                     </div>
-                    <p>Mini LWC chair</p>
+                    <p>Dining Chair</p>
                     <p>$56.00</p>
                     </div>
                 {/* cards ends here */}

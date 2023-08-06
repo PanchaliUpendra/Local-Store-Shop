@@ -57,10 +57,13 @@ function Contactus(){
             {/* information about us */}
             <div className='contactus-informaion'>
             <h1>Information About us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis 
-            neque ultrices mattis aliquam, malesuada diam est. Malesuada sem tristique 
-            amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis 
-            bibendum quam.</p>
+            <p>We are a leading company committed to providing top-notch 
+            products and services to our valued customers. With a strong 
+            focus on quality, innovation, and customer satisfaction, we 
+            have built a reputation for excellence in the market. Our 
+            dedicated team of professionals works tirelessly to exceed 
+            expectations and deliver memorable experiences, making us a 
+            preferred choice for all your needs.</p>
             <img src={contactus1} alt="contactus1" className='contactus-img-first-div'/>
             </div>
             
@@ -109,9 +112,11 @@ function Contactus(){
         <div className='get-in-touch-div'>
         <div className='get-in-touch-form'>
             <h1>Get In Touch</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Mattis neque ultrices  tristique amet erat vitae eget dolor los 
-            vitae lobortis quis bibendum quam.</p>
+            <p>Feel free to get in touch with us using the form 
+            below! We would love to hear from you and address any
+             inquiries or feedback you may have. Our team is 
+             ready to assist you and ensure a prompt and personalized 
+             response to all your needs.</p>
             <form>
             <div className='get-in-touch-form-part1'>
             <input placeholder='Name*' type="text" onChange={(e)=>setusername(e.target.value)}/>
@@ -122,7 +127,7 @@ function Contactus(){
             <textarea placeholder='description' onChange={(e)=>setuserdes(e.target.value)} />
 
             </form>
-            <button onClick={()=>handlemessages()}>Send Mail</button>
+            <button onClick={()=>handlemessages()}>Send</button>
         </div>
         <img src={orbitcontact} alt="orbitcontact" className='contactus-oribit-img'/>
         </div>
