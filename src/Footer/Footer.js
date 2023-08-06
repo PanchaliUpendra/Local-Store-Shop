@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { NavLink } from 'react-router-dom';
 
 function Footer(){
     return(
@@ -37,7 +38,7 @@ function Footer(){
             </div>
         </div>
         <div className='footer-second-container'>
-            <p>©Webecy - All Rights Reserved</p>
+            <p>©2023 - storeshop - All Rights Reserved -<NavLink to='/privacy'>Privacy-Policy</NavLink> </p>
         </div>
         </>
     );

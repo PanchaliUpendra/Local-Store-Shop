@@ -18,6 +18,7 @@ import Editaccount from './Components/Account/Editaccount';
 import Buyproducts from './Components/Buyproducts/Buyproducts';
 import Addcart from './Components/Addcart/Addcart';
 import Orders from './Components/Orders/Orderes';
+import Privacy from './Components/Privacy/Privacy';
 function App() {
 
   const sharedValues=useContext(MyContext);
@@ -36,7 +37,7 @@ function App() {
           <Route path='/About' element={<About/>}/>
           <Route path='/Login' element={<Login/>}/>
           <Route path='/Products' element={<Products />}/>
-          
+          <Route path='/privacy' element={<Privacy/>}/>
           <Route path='/Dashboard' element={<Dashboard/>}>
           <Route path='/Dashboard/account' element={<Account/>}/>
           <Route path='/Dashboard/messages' element={<Messages/>}/>
